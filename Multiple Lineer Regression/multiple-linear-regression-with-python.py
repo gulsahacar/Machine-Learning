@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul  7 00:47:02 2018
+
 
 @author: user
 """
@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv("multiple-linear-regression-dataset.csv",sep = ";")
+df = pd.read_csv("multiple-linear-regression-dataset.csv   ",sep = ";")
 
 x = df.iloc[:,[0,2]].values
 y = df.maas.values.reshape(-1,1)
